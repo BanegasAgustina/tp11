@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedido</title>
+</head>
+<body>
+    <h1>Formulario de Pedido</h1>
+    <form action="4.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" name="direccion" id="direccion" required>
+        <br>
+
+        <label for="tp">Tipo de Pizza:</label>
+        <br>
+        <input type="checkbox" id="JyQ" name="pizzas[]" value="JyQ">
+        <label for="JyQ">JyQ</label><br>
+        
+        <input type="checkbox" id="napo" name="pizzas[]" value="Napo">
+        <label for="napo">Napolitana</label><br>
+        
+        <input type="checkbox" id="muza" name="pizzas[]" value="Muza">
+        <label for="muza">Muzarella</label><br><br>
+        
+        <button type="submit">Confirmar</button>
+    </form>
+</body>
+</html>
